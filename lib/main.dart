@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Center(
-      child: Text("Hello Test"),
-    ),
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text("Nothing Special"),
+        backgroundColor: Colors.blueGrey[900],
+      ),
+    )
   ));
 }
